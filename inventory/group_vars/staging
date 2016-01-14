@@ -1,0 +1,9 @@
+---
+# inventory/group_vars/staging
+# These are variables common across staging servers
+domain: ansible0.cakt.us
+
+# FIXME: Update to the correct project repo
+repo:
+  url: file:///home/dpoirier/clients/caktus/ansible0
+  branch: master
