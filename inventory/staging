@@ -10,7 +10,7 @@
 # web1 ansible_ssh_host=192.168.0.3
 
 # EDIT THIS!
-host1 ansible_ssh_host=ansible0.cakt.us ansible_ssh_user=root
+host1 ansible_ssh_host=ansible0.cakt.us
 
 [web]
 # Include web servers in this group
@@ -21,4 +21,4 @@ host1
 host1
 
 [worker]
-# Group must exist even if empty
+# FIXME: Group must exist even if empty
